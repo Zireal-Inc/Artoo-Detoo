@@ -683,3 +683,4 @@ zsdoc/data
 
 
 storybook-static
+vite.config.*.timestamp*
