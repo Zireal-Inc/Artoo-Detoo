@@ -54,3 +54,10 @@ mkdir configs
 # add nx as PNPM package dev dependency 
 pnpm add -D nx@latest
 ```
+
+
+## Create APP 
+
+```sh 
+nx add @nx/react
+```
