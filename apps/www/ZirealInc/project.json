@@ -1,0 +1,9 @@
+{
+  "name": "ZirealInc",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/www/ZirealInc/src",
+  "projectType": "application",
+  "tags": ["zirealinc"],
+  "// targets": "to see all targets run: nx show project ZirealInc --web",
+  "targets": {}
+}
