@@ -1,0 +1,309 @@
+{
+	//git
+	"git.autofetch": true,
+	"git.suggestSmartCommit": true,
+	// workbench
+	"workbench.iconTheme": "vscode-icons",
+	"workbench.colorTheme": "Dracula Theme",
+	"workbench.colorCustomizations": {
+		"editorGroup.border": "#a5df0f",
+		"panel.border": "#a5df0f",
+		"sash.hoverBorder": "#a5df0f",
+		"sideBar.border": "#a5df0f",
+		"statusBar.background": "#82af0c",
+		"statusBar.border": "#82af0c",
+		"statusBar.debuggingBackground": "#390caf",
+		"statusBar.debuggingBorder": "#390caf",
+		"statusBarItem.hoverBackground": "#5f7f09",
+		"statusBarItem.remoteBackground": "#82af0c"
+	},
+	"workbench.tips.enabled": false,
+	"workbench.sideBar.location": "right",
+	"workbench.startupEditor": "none",
+	"workbench.editor.highlightModifiedTabs": true,
+	"workbench.editor.enablePreviewFromCodeNavigation": true,
+	"workbench.editor.enablePreviewFromQuickOpen": true,
+	"workbench.editor.openPositioning": "last",
+	"window.confirmBeforeClose": "keyboardOnly",
+	"workbench.editor.revealIfOpen": true,
+	//explorer
+	"explorer.autoReveal": true,
+	"explorer.autoRevealExclude": {
+		"**/node_modules": true,
+		"**/bower_components": true
+	},
+	//editor
+	"editor.minimap.autohide": true,
+	"editor.minimap.enabled": false,
+	"editor.minimap.side": "left",
+	"editor.minimap.renderCharacters": false,
+	"editor.formatOnPaste": false,
+	"editor.formatOnType": false,
+	"editor.stickyScroll.enabled": true,
+	"editor.inlineSuggest.showToolbar": "always",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.wordWrap": "off",
+	"editor.quickSuggestions": {
+		"other": "on",
+		"comments": "on",
+		"strings": "on"
+	},
+	// files
+	"files.autoSave": "afterDelay",
+	// Terminal
+	"terminal.integrated.shellIntegration.enabled": true,
+	// AutoDoctString
+	"autoDocString.includeName": true,
+	//json
+	"[json]": {},
+	//Python
+	"[python]": {
+		"diffEditor.ignoreTrimWhitespace": false,
+		"editor.formatOnType": true,
+		"editor.wordBasedSuggestions": "off"
+	},
+	"python.analysis.autoFormatStrings": true,
+	// Peacock
+	"peacock.affectEditorGroupBorder": true,
+	"peacock.keepBadgeColor": true,
+	"peacock.keepForegroundColor": true,
+	"peacock.surpriseMeOnStartup": true,
+	"peacock.affectDebuggingStatusBar": true,
+	"peacock.affectPanelBorder": true,
+	"peacock.affectStatusAndTitleBorders": true,
+	"peacock.affectTitleBar": false,
+	"peacock.affectSideBarBorder": true,
+	"peacock.affectActivityBar": false,
+	//TODO Highlight
+	"todohighlight.toggleURI": true,
+	"todohighlight.isCaseSensitive": false,
+	"todohighlight.include": [
+		"**/*.js",
+		"**/*.jsx",
+		"**/*.ts",
+		"**/*.tsx",
+		"**/*.html",
+		"**/*.php",
+		"**/*.css",
+		"**/*.scss",
+		"**/*.txt",
+		"**/*.mdown",
+		"**/*.md",
+		"**/*.py"
+	],
+	// TODO Tre
+	"todo-tree.general.showActivityBarBadge": true,
+	"todo-tree.general.tags": [
+		"BUG",
+		"HACK",
+		"FIX",
+		"FIXME",
+		"FIXIT",
+		"MARK",
+		"todo",
+		"ToDo",
+		"tOdO",
+		"TODO",
+		"XXX",
+		"[ ]",
+		"[x]",
+		"QUES",
+		"ANS",
+		"NOTE",
+		"REVIEW",
+		"REF",
+		"WARN"
+	],
+	"todo-tree.highlights.backgroundColourScheme": [
+		"red",
+		"orange",
+		"yellow",
+		"green",
+		"blue",
+		"indigo",
+		"violet",
+		"black",
+		"white"
+	],
+	"todo-tree.general.tagGroups": {
+		"FIX": [
+			"FIXME",
+			"FIXIT"
+		],
+		"TODO": [
+			"TODO",
+			"todo",
+			"ToDo",
+			"tOdO"
+		]
+	},
+	"todo-tree.highlights.defaultHighlight": {
+		"type": "tag-and-comment",
+		"fontWeight": "bold",
+		"foreground": "#000000",
+		"opacity": 90,
+	},
+	"todo-tree.highlights.customHighlight": {
+		"NOTE": {
+			"background": "#FFA500",
+			"iconColour": "#FFA500",
+			"gutterIcon": true,
+			"icon": "file",
+			"type": "text"
+		},
+		"TODO": {
+			"background": "#FFD703",
+			"iconColour": "#FFD703",
+			"icon": "tasklist",
+			"gutterIcon": true
+		},
+		"BUG": {
+			"background": "#ff000080",
+			"iconColour": "#ff000080",
+			"gutterIcon": true,
+			"icon": "bug"
+		},
+		"HACK": {
+			"background": "#ff0080",
+			"iconColour": "#ff0080",
+			"gutterIcon": true,
+			"icon": "tools"
+		},
+		"FIX": {
+			"background": "#F80B2180",
+			"iconColour": "#F80B2180",
+			"gutterIcon": true,
+			"icon": "flame"
+		},
+		"MARK": {
+			"background": "#157EFB",
+			"iconColour": "#157EFB",
+			"gutterIcon": true,
+			"icon": "tag",
+		},
+		"XXX": {
+			"background": "#FFA500",
+			"iconColour": "#FFA500",
+			"gutterIcon": true,
+			"icon": "x"
+		},
+		"[ ]": {
+			"background": "#008000",
+			"iconColour": "#008000",
+			"gutterIcon": true,
+			"icon": "issue-draft"
+		},
+		"[x]": {
+			"background": "#0000ff",
+			"iconColour": "#0000ff",
+			"gutterIcon": true,
+			"icon": "issue-closed"
+		},
+		"QUES": {
+			"background": "#000",
+			"foreground": "#fff",
+			"iconColour": "#000",
+			"gutterIcon": true,
+			"icon": "question"
+		},
+		"ANS": {
+			"background": "#FFF",
+			"iconColour": "#FFF",
+			"gutterIcon": true,
+			"icon": "pencil"
+		},
+		"REVIEW": {
+			"background": "#00ffff",
+			"foreground": "#000",
+			"iconColour": "#add8e6",
+			"gutterIcon": true,
+			"icon": "eye"
+		},
+		"REF": {
+			"foreground": "#000",
+			"background": "#808080",
+			"iconColour": "#808080",
+			"gutterIcon": true,
+			"icon": "link",
+			"type": "tag"
+		},
+		"WARN": {
+			"foreground": "#000",
+			"background": "#FFD703",
+			"gutterIcon": true,
+			"icon": "alert",
+			"iconColour": "#FFD703"
+		}
+	},
+	"terminal.integrated.defaultProfile.linux": "zsh",
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"githubPullRequests.remotes": [
+		"origin",
+		"upstream",
+		"main",
+		"remotes",
+		"remotes/origin"
+	],
+	"githubIssues.createIssueTriggers": [
+		"TODO",
+		"todo",
+		"BUG",
+		"FIXME",
+		"ISSUE",
+		"HACK",
+		"*"
+	],
+	"githubPullRequests.queries": [
+		{
+			"label": "Waiting For My Review",
+			"query": "is:open review-requested:rbmalik1994 repo:Zireal-Inc/Magma-Chaos"
+		},
+		{
+			"label": "Assigned To Me",
+			"query": "is:issue is:open repo:Zireal-Inc/Magma-Chaos"
+		},
+		{
+			"label": "Created By Me",
+			"query": "is:open author:rbmalik1994 repo:Zireal-Inc/Magma-Chaos"
+		},
+		{
+			"label": "Mentioned By Me",
+			"query": "is:open mentions:rbmalik1994 repo:Zireal-Inc/Magma-Chaos"
+		}
+	],
+	"githubIssues.queries": [
+		{
+			"label": "My Issues",
+			"query": "is:open  assigne:rbmalik1994 repo:Zireal-Inc/Magma-Chaos"
+			// ,
+			// "groupBy": [
+			//     "milestone"
+			// ]
+		},
+		{
+			"label": "All",
+			"query": "is:open repo:Zireal-Inc/Magma-Chaos"
+		},
+		{
+			"label": "Created Issues",
+			"query": "author:rbmalik1994 state:open repo:Zireal-Inc/Magma-Chaos sort:created-desc"
+		},
+		{
+			"label": "Recent Issues",
+			"query": "state:open repo:Zireal-Inc/Magma-Chaos sort:updated-desc user:rbmalik1994"
+		}
+	],
+	"githubIssues.issueBranchTitle": "Zireal-Inc/Magma-Chaos/issue/${issueNumber}",
+	"githubPullRequests.showPullRequestNumberInTree": true,
+	"github.experimental.multipleAccounts": true,
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	"peacock.remoteColor": "#82af0c",
+	"nxConsole.nxWorkspacePath": ""
+}

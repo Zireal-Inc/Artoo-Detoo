@@ -1,0 +1,16 @@
+name: "❓ Question or Support Request"
+description: "Report failing tests or CI jobs."
+title: "❓ Question"
+labels:
+  - "Type: Question"
+
+body:
+  - type: markdown
+    attributes:
+      value:  "**❓ Question**"
+
+  - type: textarea
+    attributes:
+      label: "Describe your question or ask for support."
+    validations:
+      required: true
