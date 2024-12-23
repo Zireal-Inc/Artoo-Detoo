@@ -6,16 +6,16 @@
 	"workbench.iconTheme": "vscode-icons",
 	"workbench.colorTheme": "Dracula Theme",
 	"workbench.colorCustomizations": {
-		"editorGroup.border": "#a5df0f",
-		"panel.border": "#a5df0f",
-		"sash.hoverBorder": "#a5df0f",
-		"sideBar.border": "#a5df0f",
-		"statusBar.background": "#82af0c",
-		"statusBar.border": "#82af0c",
-		"statusBar.debuggingBackground": "#390caf",
-		"statusBar.debuggingBorder": "#390caf",
-		"statusBarItem.hoverBackground": "#5f7f09",
-		"statusBarItem.remoteBackground": "#82af0c"
+		"editorGroup.border": "#ff3333",
+		"panel.border": "#ff3333",
+		"sash.hoverBorder": "#ff3333",
+		"sideBar.border": "#ff3333",
+		"statusBar.background": "#ff0000",
+		"statusBar.border": "#ff0000",
+		"statusBar.debuggingBackground": "#00ffff",
+		"statusBar.debuggingBorder": "#00ffff",
+		"statusBarItem.hoverBackground": "#ff3333",
+		"statusBarItem.remoteBackground": "#ff0000"
 	},
 	"workbench.tips.enabled": false,
 	"workbench.sideBar.location": "right",
@@ -304,6 +304,6 @@
 	"files.associations": {
 		"*.css": "tailwindcss"
 	},
-	"peacock.remoteColor": "#82af0c",
+	"peacock.remoteColor": "red",
 	"nxConsole.nxWorkspacePath": ""
 }
