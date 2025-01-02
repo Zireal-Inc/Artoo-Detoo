@@ -48,3 +48,14 @@ export default tseslint.config({
   },
 })
 ```
+
+
+# Run Story book 
+```sh 
+pnpm exec nx run ui:storybook
+pnpx nx run ui:storybook
+
+pnpm exec nx run ui:dev
+pnpx nx run ui:dev
+
+```
