@@ -1,0 +1,59 @@
+import { Canvas, Meta, Story } from '@storybook/blocks';
+
+import * as AccordionStories from './accordion.stories';
+
+<Meta of={AccordionStories} /> 
+
+# Accordion
+
+The `Accordion` component allows you to display collapsible content panels for presenting information in a limited amount of space.
+
+## Usage
+
+To use the `Accordion` component, you need to import it and use it in your JSX as shown below:
+
+```jsx
+import { Accordion } from 'your-component-library';
+
+const MyComponent = () => (
+  <Accordion>
+    <Accordion.Item title="Section 1">
+      <p>Content for section 1</p>
+    </Accordion.Item>
+    <Accordion.Item title="Section 2">
+      <p>Content for section 2</p>
+    </Accordion.Item>
+  </Accordion>
+);
+```
+
+## Props
+
+### Accordion
+
+- `children` (required): The content of the accordion, typically `Accordion.Item` components.
+
+### Accordion.Item
+
+- `title` (required): The title of the accordion item.
+- `children` (required): The content of the accordion item.
+
+## Examples
+
+### Simple
+
+This is a simple example of the `Accordion` component with two items.
+
+<Story of={AccordionStories.Simple} /> 
+
+### Multiple Items
+
+This example demonstrates an accordion with multiple items.
+
+<Story of={AccordionStories.MultipleItems} /> 
+
+### Custom Styled
+
+This example shows how you can apply custom styles to the `Accordion` component.
+
+<Story of={AccordionStories.CustomStyled} />
