@@ -1,0 +1,9 @@
+{
+  "name": "vite-config",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite"
+  }
+}

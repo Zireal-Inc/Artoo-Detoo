@@ -15,7 +15,7 @@ The workspace is organized into the following directories:
   - `web/`: Placeholder for web applications.
   - `www/`: Placeholder for other web applications.
 - `configs/`: Contains configuration files.
-- `doc/`: Contains documentation files.
+- `doc/`: Contains documentation files. 
 - `packages/`: Contains library projects.
   - `test/`: Placeholder for test libraries.
   - `ui/`: Contains the UI library.
@@ -106,6 +106,7 @@ Create an Nx application:
 
 ```sh
 nx add @nx/react
+pnpm add -D @nx/react
 ```
 
 ## Running the Project

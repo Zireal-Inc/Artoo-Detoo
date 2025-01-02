@@ -1,0 +1,11 @@
+{
+    "name": "prettier-config",
+    "version": "1.0.0",
+    "description": "Prettier configuration",
+	"private" : true,
+
+    "main": "index.js",
+    "keywords": [],
+	"author": "Robin", 
+    "license": "ISC"
+}

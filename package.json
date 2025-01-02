@@ -1,18 +1,52 @@
 {
   "name": "artoo-detoo",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "nx run-many --target=build",
-    "dev": "nx run-many --target=dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": { 
+  "workspaces": [
+    "packages/*",
+    "config/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "@nx/js": "20.3.0",
+    "@nx/storybook": "20.3.0",
+    "@nx/web": "20.3.0",
+    "@storybook/addon-essentials": "^8.4.6",
+    "@storybook/addon-interactions": "^8.4.6",
+    "@storybook/addon-links": "^8.4.7",
+    "@storybook/builder-vite": "^8.4.7",
+    "@storybook/core-server": "^8.4.6",
+    "@storybook/jest": "^0.2.3",
+    "@storybook/react": "^8.4.7",
+    "@storybook/react-dom-shim": "^8.4.7",
+    "@storybook/react-vite": "^8.4.7",
+    "@storybook/test-runner": "^0.19.0",
+    "@storybook/testing-library": "^0.2.2",
+    "@swc-node/register": "~1.9.1",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
+    "@vitejs/plugin-react": "^4.2.0",
+    "eslint-config": "workspace:*",
+    "nx": "20.3.0",
+    "prettier": "^2.6.2",
+    "prettier-config": "workspace:*",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "storybook": "^8.4.6",
+    "tailwind-config": "workspace:*",
+    "ts-node": "10.9.1",
+    "tslib": "^2.3.0",
+    "typescript": "~5.6.2",
+    "typescript-config": "workspace:*",
+    "vite": "^2.0.0",
+    "vite-config": "workspace:*"
   },
-  "dependencies": {  
-  }
+  "prettier": "prettier-config"
 }
