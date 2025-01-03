@@ -9,6 +9,7 @@ const config: StorybookConfig = {
     getAbsolutePath("@storybook/addon-interactions"),
     getAbsolutePath("@chromatic-com/storybook"),
     getAbsolutePath("@storybook/addon-links"), 
+    getAbsolutePath("@storybook/addon-a11y"),
   ],
 
   framework: {
@@ -16,7 +17,9 @@ const config: StorybookConfig = {
     options: {},
   },
 
-  docs: {},
+  docs: { 
+    defaultName: 'Documentation',
+  },
 
   typescript: {
     reactDocgen: "react-docgen-typescript"
