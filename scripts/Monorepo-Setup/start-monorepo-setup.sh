@@ -83,7 +83,7 @@ EOF
 setup_nx() {
     echo "Setting up Nx in the workspace..."
     pnpm add -D nx
-    npx nx@latest init --nxCloud=false
+    pnpm dlx nx@latest init --nxCloud=false
     echo "Nx setup complete."
 }
 

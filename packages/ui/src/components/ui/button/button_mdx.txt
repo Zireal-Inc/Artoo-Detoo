@@ -1,0 +1,87 @@
+import { Canvas, Meta, Story } from '@storybook/blocks';
+
+import * as ButtonStories from './button.stories';
+
+<Meta of={ButtonStories} /> 
+
+# Button
+
+The `Button` component allows you to trigger actions or events with a single click.
+
+## Usage
+
+To use the `Button` component, you need to import it and use it in your JSX as shown below:
+
+```jsx
+import { Button } from 'your-component-library';
+
+const MyComponent = () => (
+  <Button onClick={() => alert('Button clicked!')}>
+    Click Me
+  </Button>
+);
+```
+
+## Props
+
+### Button
+
+- `variant`: The variant of the button. Possible values are `default`, `destructive`, `outline`, `secondary`, `ghost`, and `link`.
+- `size`: The size of the button. Possible values are `default`, `sm`, `lg`, and `icon`.
+- `asChild`: If true, the button will render as a child component.
+
+## Examples
+
+### Primary
+
+This is a simple example of the `Button` component.
+
+<Story of={ButtonStories.Primary} />
+
+### Destructive
+
+This example shows the `Button` component with the `destructive` variant.
+
+<Story of={ButtonStories.Destructive} />
+
+### Outline
+
+This example shows the `Button` component with the `outline` variant.
+
+<Story of={ButtonStories.Outline} />
+
+### Secondary
+
+This example shows the `Button` component with the `secondary` variant.
+
+<Story of={ButtonStories.Secondary} />
+
+### Ghost
+
+This example shows the `Button` component with the `ghost` variant.
+
+<Story of={ButtonStories.Ghost} />
+
+### Link
+
+This example shows the `Button` component with the `link` variant.
+
+<Story of={ButtonStories.Link} />
+
+### Small
+
+This example shows the `Button` component with the `sm` size.
+
+<Story of={ButtonStories.Small} />
+
+### Large
+
+This example shows the `Button` component with the `lg` size.
+
+<Story of={ButtonStories.Large} />
+
+### Icon
+
+This example shows the `Button` component with the `icon` size.
+
+<Story of={ButtonStories.Icon} />

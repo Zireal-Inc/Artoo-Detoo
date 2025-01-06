@@ -1,0 +1,5 @@
+// filepath: .storybook/tsconfig.json
+{
+    "extends": "../tsconfig.json",
+    "include": ["./*.ts", "./*.tsx"]
+}
