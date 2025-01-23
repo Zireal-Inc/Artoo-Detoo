@@ -1,0 +1,65 @@
+
+
+[config.toml]
+-- config file structure
+1. [user]
+    a. name
+    b. email
+2. [branch]
+    a. main
+        i. prefix
+        ii. url
+        iii. default
+    b. develop
+        i. prefix
+        ii. url
+        iii. default 
+    C. feature
+        i. prefix
+        ii. url
+        iii. default 
+    d. bugfix
+        i. prefix
+        ii. url
+        iii. default 
+    e. hotfix
+        i. prefix
+        ii. url
+        iii. default 
+    f. release
+        i. prefix
+        ii. url
+        iii. default 
+    i. support
+        i. prefix
+        ii. url
+        iii. default 
+    j. version
+        i. prefix
+        ii. url
+        iii. default 
+    k. task
+        i. prefix
+        ii. url
+        iii. default 
+    s. default
+        i. prefix
+        ii. url
+        iii. default 
+3. [remote]
+    a. origin
+        i. main 
+        ii. develop
+        iii. feature
+        iv. hotfix
+        v. release
+        vi. support
+    b. upstream
+    c. prefix
+        i. origin
+        ii. upstream
+    d. url
+        i. origin
+        ii. upstream
+    e. default
+4. [config] 
