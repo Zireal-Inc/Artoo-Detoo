@@ -1,0 +1,78 @@
+[user]
+name = ""
+email = ""
+
+[branch]
+[branch.main]
+prefix = ""
+url = ""
+default = "main"
+
+[branch.develop]
+prefix = ""
+url = ""
+default = "develop"
+
+[branch.feature]
+prefix = "feature/"
+url = ""
+default = ""
+
+[branch.bugfix]
+prefix = "bugfix/"
+url = ""
+default = ""
+
+[branch.hotfix]
+prefix = "hotfix/"
+url = ""
+default = ""
+
+[branch.release]
+prefix = "release/"
+url = ""
+default = ""
+
+[branch.support]
+prefix = "support/"
+url = ""
+default = ""
+
+[branch.version]
+prefix = "v"
+url = ""
+default = ""
+
+[branch.task]
+prefix = "task/"
+url = ""
+default = ""
+
+[branch.default]
+prefix = ""
+url = ""
+default = ""
+
+[remote]
+[remote.origin]
+main = "main"
+develop = "develop"
+feature = "feature/*"
+hotfix = "hotfix/*"
+release = "release/*"
+support = "support/*"
+
+[remote.upstream]
+
+[remote.prefix]
+origin = "origin"
+upstream = "upstream"
+
+[remote.url]
+origin = ""
+upstream = ""
+
+[remote.default]
+default = "origin"
+
+[config]
