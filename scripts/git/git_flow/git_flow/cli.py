@@ -68,7 +68,7 @@ class SetupCommands:
 
     def __init__(self, gitflow: GitFlow):
         self.gitflow = gitflow
-        self.app = typer.Typer()
+        self.app = typer.Typer(no_args_is_help=True)
         self._register_commands()
 
     def _register_commands(self):
@@ -167,7 +167,7 @@ class BranchCommands:
 
     def __init__(self, gitflow: GitFlow):
         self.gitflow = gitflow
-        self.app = typer.Typer()
+        self.app = typer.Typer(no_args_is_help=True)
         self._register_commands()
 
     def _register_commands(self):
@@ -358,7 +358,7 @@ class CLI:
 
     def __init__(self):
         """Initialize CLI with necessary components"""
-        self.app = typer.Typer(help=self._generate_help_text())
+        self.app = typer.Typer(help=self._generate_help_text(), no_args_is_help=True, )
         self.gitflow = GitFlow()
         self.setup = SetupCommands(self.gitflow)
         self.branch = BranchCommands(self.gitflow)
