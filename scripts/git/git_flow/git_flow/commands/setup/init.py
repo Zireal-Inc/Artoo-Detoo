@@ -2,6 +2,10 @@ from .base import BaseCommand
 import os
 import re
 
+class GitFlowError(Exception):
+    pass
+
+
 class InitCommand(BaseCommand):
     def is_initialized(self) -> bool:
         """Check if repository is initialized for git-flow"""

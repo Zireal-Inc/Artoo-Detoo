@@ -1,7 +1,9 @@
 from typing import Dict, Any, Optional
 from ...settings import Settings
 from .base import BaseCommand
-import re
+import re 
+class GitFlowError(Exception):
+    pass
 
 class ConfigCommand(BaseCommand):
     def __init__(self, *args, **kwargs):

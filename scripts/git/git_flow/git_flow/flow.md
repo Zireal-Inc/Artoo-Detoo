@@ -36,38 +36,11 @@
 - Start hotfix branch
 - Finish hotfix branch
 - Publish hotfix branch
-  
-### 2.5 Bugfix
 
-- Start bugfix branch
-- Finish bugfix branch
-- Publish bugfix branch
-
-### 2.6 Support
+### 2.4 Support
 
 - Start long-term support branch
 - Maintain support branches
-
-### 2.7 Develop
-
-- Start new develop branch
-- Finish develop branch
-- Publish develop branch
-- Track remote develop branch
-
-### 2.8 Master
-
-- Start new master branch
-- Finish master branch
-- Publish master branch
-- Track remote master branch
-
-### 2.9 Setup
-
-- Start new setup branch
-- Finish setup branch
-- Publish setup branch
-- Track remote setup branch
 
 ## 3. Issue Module
 
@@ -85,7 +58,6 @@
 - Link PR to issues
 - Review management
 - Merge strategies
-
 
 ## 4. Project Module
 
