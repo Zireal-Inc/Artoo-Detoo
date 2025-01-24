@@ -53,17 +53,36 @@ class Settings:
         os.makedirs(os.path.dirname(self.config_path), exist_ok=True)
         self.write_config(config)
 
+    def validate_config(self, config: Dict[str, Any]) -> bool:
+        """Validate config structure"""
+        try:
+            required_sections = ['user', 'branch', 'remote', 'config']
+            return all(section in config for section in required_sections)
+        except Exception:
+            return False
+
     def read_config(self) -> Dict[str, Any]:
         """Read the config file"""
-        if not os.path.exists(self.config_path):
-            return {}
-        with open(self.config_path, 'r') as f:
-            return toml.load(f)
+        try:
+            if not os.path.exists(self.config_path):
+                return {}
+            with open(self.config_path, 'r') as f:
+                config = toml.load(f)
+                if not self.validate_config(config):
+                    raise ValueError("Invalid config structure")
+                return config
+        except Exception as e:
+            raise IOError(f"Error reading config: {str(e)}")
 
     def write_config(self, config: Dict[str, Any]) -> None:
         """Write the config file"""
-        with open(self.config_path, 'w') as f:
-            toml.dump(config, f)
+        try:
+            if not self.validate_config(config):
+                raise ValueError("Invalid config structure")
+            with open(self.config_path, 'w') as f:
+                toml.dump(config, f)
+        except Exception as e:
+            raise IOError(f"Error writing config: {str(e)}")
 
     def update_config(self, updates: Dict[str, Any]) -> None:
         """Update config with new values"""
