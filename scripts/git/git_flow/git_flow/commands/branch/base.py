@@ -1,5 +1,5 @@
 from typing import Optional
-from ..core import GitFlow
+from ...core import GitFlow
 
 class BaseCommand:
     def __init__(self, gitflow: GitFlow):

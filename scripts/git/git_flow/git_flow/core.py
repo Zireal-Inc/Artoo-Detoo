@@ -85,17 +85,35 @@ class GitFlow:
         result = self._git_command(args)
         return [b.strip() for b in result.splitlines()]
 
+    def validate_branch_name(self, branch: str) -> bool:
+        """Validate branch name"""
+        return bool(re.match(r'^[a-zA-Z0-9_\-./]+$', branch))
+
     def create_branch(self, branch: str, base: str):
         """Create new branch"""
-        self._git_command(['checkout', '-b', branch, base])
+        if not self.validate_branch_name(branch):
+            raise GitFlowError(f"Invalid branch name: {branch}")
+        if not self.validate_branch_name(base):
+            raise GitFlowError(f"Invalid base branch name: {base}")
+        try:
+            self._git_command(['checkout', '-b', branch, base])
+        except GitFlowError as e:
+            raise GitFlowError(f"Failed to create branch: {str(e)}")
 
     def merge_branch(self, branch: str, no_ff: bool = True):
         """Merge branch"""
+        if not self.validate_branch_name(branch):
+            raise GitFlowError(f"Invalid branch name: {branch}")
+        if not self.is_clean_working_tree():
+            raise GitFlowError("Working tree is not clean")
         args = ['merge']
         if no_ff:
             args.append('--no-ff')
         args.append(branch)
-        self._git_command(args)
+        try:
+            self._git_command(args)
+        except GitFlowError as e:
+            raise GitFlowError(f"Merge failed: {str(e)}")
 
     def delete_branch(self, branch: str, force: bool = False):
         """Delete branch"""

@@ -1,11 +1,17 @@
 from typing import Dict, Any, Optional
-from ..settings import Settings
+from ...settings import Settings
 from .base import BaseCommand
+import re
 
 class ConfigCommand(BaseCommand):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.settings = Settings(self.gitflow.config_path)
+
+    def validate_section_key(self, section: str, key: str) -> bool:
+        """Validate section and key names"""
+        return bool(re.match(r'^[a-zA-Z0-9_.]+$', section) and 
+                   re.match(r'^[a-zA-Z0-9_]+$', key))
 
     def init(self, initial_values: Optional[Dict[str, Any]] = None) -> None:
         """Initialize config file"""
@@ -13,14 +19,19 @@ class ConfigCommand(BaseCommand):
 
     def set(self, section: str, key: str, value: str) -> None:
         """Set a config value"""
-        updates = {}
-        parts = section.split('.')
-        current = updates
-        for part in parts[:-1]:
-            current[part] = {}
-            current = current[part]
-        current[parts[-1]] = {key: value}
-        self.settings.update_config(updates)
+        if not self.validate_section_key(section, key):
+            raise ValueError("Invalid section or key name")
+        try:
+            updates = {}
+            parts = section.split('.')
+            current = updates
+            for part in parts[:-1]:
+                current[part] = {}
+                current = current[part]
+            current[parts[-1]] = {key: value}
+            self.settings.update_config(updates)
+        except Exception as e:
+            raise GitFlowError(f"Failed to set config: {str(e)}")
 
     def get(self, section: str, key: str) -> Any:
         """Get a config value"""
