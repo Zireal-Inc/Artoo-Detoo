@@ -1,3 +1,0 @@
-#!/bin/sh
-set -eu
-git commit --amend --no-edit --allow-empty "$@"
