@@ -261,25 +261,25 @@
 	"githubPullRequests.queries": [
 		{
 			"label": "Waiting For My Review",
-			"query": "is:open review-requested:rbmalik1994 repo:Zireal-Inc/Magma-Chaos"
+			"query": "is:open review-requested:rbmalik1994 repo:Zireal-Inc/Artoo-Detoo"
 		},
 		{
 			"label": "Assigned To Me",
-			"query": "is:issue is:open repo:Zireal-Inc/Magma-Chaos"
+			"query": "is:issue is:open repo:Zireal-Inc/Artoo-Detoo"
 		},
 		{
 			"label": "Created By Me",
-			"query": "is:open author:rbmalik1994 repo:Zireal-Inc/Magma-Chaos"
+			"query": "is:open author:rbmalik1994 repo:Zireal-Inc/Artoo-Detoo"
 		},
 		{
 			"label": "Mentioned By Me",
-			"query": "is:open mentions:rbmalik1994 repo:Zireal-Inc/Magma-Chaos"
+			"query": "is:open mentions:rbmalik1994 repo:Zireal-Inc/Artoo-Detoo"
 		}
 	],
 	"githubIssues.queries": [
 		{
 			"label": "My Issues",
-			"query": "is:open  assigne:rbmalik1994 repo:Zireal-Inc/Magma-Chaos"
+			"query": "is:open  assigne:rbmalik1994 repo:Zireal-Inc/Artoo-Detoo"
 			// ,
 			// "groupBy": [
 			//     "milestone"
@@ -287,18 +287,18 @@
 		},
 		{
 			"label": "All",
-			"query": "is:open repo:Zireal-Inc/Magma-Chaos"
+			"query": "is:open repo:Zireal-Inc/Artoo-Detoo"
 		},
 		{
 			"label": "Created Issues",
-			"query": "author:rbmalik1994 state:open repo:Zireal-Inc/Magma-Chaos sort:created-desc"
+			"query": "author:rbmalik1994 state:open repo:Zireal-Inc/ sort:created-desc"
 		},
 		{
 			"label": "Recent Issues",
-			"query": "state:open repo:Zireal-Inc/Magma-Chaos sort:updated-desc user:rbmalik1994"
+			"query": "state:open repo:Zireal-Inc/Artoo-Detoo sort:updated-desc user:rbmalik1994"
 		}
 	],
-	"githubIssues.issueBranchTitle": "Zireal-Inc/Magma-Chaos/issue/${issueNumber}",
+	"githubIssues.issueBranchTitle": "Zireal-Inc/Artoo-Detoo/issue/${issueNumber}",
 	"githubPullRequests.showPullRequestNumberInTree": true,
 	"github.experimental.multipleAccounts": true,
 	"files.associations": {
