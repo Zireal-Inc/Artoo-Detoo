@@ -1,0 +1,113 @@
+user:
+  name: rbmalik1994
+  email: rbmalik1994@gmail.co
+remote:
+  default: origin
+  prefix:
+    origin: ''
+    upstream: ''
+  url:
+    origin: ''
+    upstream: ''
+config: {}
+branch:
+  main:
+    prefix: main
+    url: ''
+    default: main
+    remote:
+      enabled: true
+      upstream: y
+      origin: origin main
+      push_on_finish: true
+      track: false
+  develop:
+    prefix: dev
+    url: ''
+    default: develop
+    remote:
+      enabled: false
+      upstream: ''
+      origin: ''
+      push_on_finish: false
+      track: true
+  feature:
+    prefix: feature-
+    url: ''
+    default: ''
+    remote:
+      enabled: true
+      upstream: ''
+      origin: ''
+      push_on_finish: true
+      track: true
+  bugfix:
+    prefix: bugfix-
+    url: ''
+    default: ''
+    remote:
+      enabled: true
+      upstream: ''
+      origin: ''
+      push_on_finish: true
+      track: true
+  hotfix:
+    prefix: hotfix-
+    url: ''
+    default: ''
+    remote:
+      enabled: true
+      upstream: ''
+      origin: ''
+      push_on_finish: true
+      track: true
+  release:
+    prefix: release-
+    url: ''
+    default: ''
+    remote:
+      enabled: true
+      upstream: ''
+      origin: ''
+      push_on_finish: true
+      track: true
+  support:
+    prefix: support-
+    url: ''
+    default: ''
+    remote:
+      enabled: true
+      upstream: ''
+      origin: ''
+      push_on_finish: true
+      track: true
+  version:
+    prefix: v
+    url: ''
+    default: ''
+    remote:
+      enabled: false
+      upstream: ''
+      origin: ''
+      push_on_finish: false
+      track: false
+  task:
+    prefix: task-
+    url: ''
+    default: ''
+    remote:
+      enabled: true
+      upstream: ''
+      origin: ''
+      push_on_finish: true
+      track: true
+  default:
+    prefix: ''
+    url: ''
+    default: ''
+    remote:
+      enabled: false
+      upstream: ''
+      origin: ''
+      push_on_finish: false
+      track: false

@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-git branch --no-color | grep -v '(HEAD detached at' | cut -c3-
