@@ -38,7 +38,7 @@ export const Accessible: Story = {
         
         children: 'Button',
     },
-  };
+};
 
 
 export const Secondary: Story = {
