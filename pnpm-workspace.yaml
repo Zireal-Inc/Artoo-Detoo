@@ -1,0 +1,7 @@
+packages:
+    # executable/launch-able applications
+    - 'apps/*'
+    # all packages in sub dirs of packages/ and components/
+    - 'packages/*'
+    # all the configs in the config
+    - 'configs/*'

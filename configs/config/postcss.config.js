@@ -1,0 +1,1 @@
+module.exports = require('@r2d2/ui/postcss');

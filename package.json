@@ -1,0 +1,22 @@
+{
+  "name": "@r2d2/workspace",
+  "version": "0.0.1",
+  "description": "A workspace for R2D2 related projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "R2D2",
+    "workspace",
+    "projects"
+  ],
+  "author": "Robin",
+  "license": "",
+  "packageManager": "pnpm@10.4.1",
+  "devDependencies": {
+    "@r2d2/config": "workspace:*",
+    "nx": "20.4.4",
+    "vite": "^6.1.0"
+  }
+}

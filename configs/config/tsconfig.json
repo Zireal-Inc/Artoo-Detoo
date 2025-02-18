@@ -1,0 +1,8 @@
+{
+	"extends": "./typescript/base.tsconfig.json",
+	"compilerOptions": {
+		"noEmit": true,
+		"noUncheckedIndexedAccess": true,
+		"strictNullChecks": true
+	}
+}
