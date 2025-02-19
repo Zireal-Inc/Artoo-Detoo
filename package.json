@@ -15,7 +15,7 @@
   "license": "",
   "packageManager": "pnpm@10.4.1",
   "devDependencies": {
-    "@r2d2/config": "workspace:*",
+    "@r2d2/app-config": "workspace:*",
     "nx": "20.4.4",
     "vite": "^6.1.0"
   }
