@@ -16,8 +16,6 @@
 		"moduleResolution": "node",
 		"resolveJsonModule": true,
 		"module": "ESNext",
-		"target": "ESNext",
-		"types": []
-        
-	}
+		"target": "ESNext", 
+	},
 }

@@ -1,15 +1,45 @@
 {
     "workbench.colorCustomizations": {
-        "editorGroup.border": "#fdfdfe",
-        "panel.border": "#fdfdfe",
-        "sash.hoverBorder": "#fdfdfe",
-        "sideBar.border": "#fdfdfe",
-        "statusBar.background": "#d4e3f4",
-        "statusBar.border": "#d4e3f4",
-        "statusBar.debuggingBackground": "#f4e5d4",
-        "statusBar.debuggingBorder": "#f4e5d4",
-        "statusBarItem.hoverBackground": "#abc9ea",
-        "statusBarItem.remoteBackground": "#d4e3f4"
+        "editorGroup.border": "#e550c7",
+        "panel.border": "#e550c7",
+        "sash.hoverBorder": "#e550c7",
+        "sideBar.border": "#e550c7",
+        "statusBar.background": "#df24b9",
+        "statusBar.border": "#df24b9",
+        "statusBar.debuggingBackground": "#24df4a",
+        "statusBar.debuggingBorder": "#24df4a",
+        "statusBarItem.hoverBackground": "#e550c7",
+        "statusBarItem.remoteBackground": "#df24b9"
     },
-    "peacock.remoteColor": "#d4e3f4"
+    "peacock.remoteColor": "#d4e3f4",
+    /* Zen Mode */
+    "zenMode.centerLayout": false, 
+    "zenMode.hideLineNumbers": false,
+    "zenMode.showTabs": "single",
+    /* Editor */
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 22,
+    "editor.fontLigatures": true,
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    /* Additional Settings */
+    "editor.cursorBlinking": "smooth",
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": false,
+    "editor.rulers": [80, 120],
+    /* Neo Vim */
+    "vscode-neovim.neovimExecutablePaths.win32": "C:\\Users\\Robin.Singh\\nvim-win64\\bin\\nvim.exe",
+    "vscode-neovim.neovimInitVimPaths.win32": "C:\\Users\\Robin.Singh\\nvim-win64\\.config\\nvim\\init.lua",
+    "peacock.color": "#df24b9",
+//     "vscode_custom_css.imports" :[
+//         "C:\\Users\\Robin.Singh\\custom.css",
+//         "C:\\Users\\Robin.Singh\\custom.js"  
+//    ],
+    
 }

@@ -1,12 +1,12 @@
 {
   "name": "@r2d2/app-config",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "App configuration for R2D2 project.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["r2d2", "config", "app-config", "configuration", "settings"],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.4.1"

@@ -1,7 +1,7 @@
 packages:
     # executable/launch-able applications
-    - 'apps/*'
+    - 'apps/**'
     # all packages in sub dirs of packages/ and components/
-    - 'packages/*'
+    - 'packages/**'
     # all the configs in the config
-    - 'configs/*'
+    - 'configs/**'
