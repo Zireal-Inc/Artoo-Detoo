@@ -1,5 +1,5 @@
 {
-  "name": "artoo-detoo",
+  "name": "@r2d2/workspace",
   "version": "0.0.1",
   "description": "A workspace for R2D2 related projects",
   "main": "index.js",
@@ -52,7 +52,7 @@
     "vite-config": "workspace:*"
   },
   "dependencies": {
-    "ui" : "workspace:*"
+    "@r2d2/ui" : "workspace:*"
   },
   "prettier": "prettier-config"
 }
