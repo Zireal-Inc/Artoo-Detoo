@@ -4,15 +4,23 @@
   "description": "A workspace for R2D2 related projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nx run-many --target=serve --all",
+    "build": "nx run-many --target=build --all",
+    "test:all": "nx run-many --target=test --all",
+    "lint": "nx run-many --target=lint --all",
+    "storybook": "nx run-many --target=storybook --all",
+    "dev": "nx run-many --target=serve --all --parallel",
+    "build:affected": "nx affected --target=build",
+    "test:affected": "nx affected --target=test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "workspaces": [
-    "packages/*",
-    "config/*",
-    "apps/*"
+    "packages/**",
+    "config/**",
+    "apps/**"
   ],
   "devDependencies": {
     "@nx/js": "20.4.0",
@@ -52,7 +60,8 @@
     "vite-config": "workspace:*"
   },
   "dependencies": {
-    "@r2d2/ui" : "workspace:*"
+    "@r2d2/ui": "workspace:*",
+    "tailwindcss-animate": "^1.0.7"
   },
   "prettier": "prettier-config"
 }

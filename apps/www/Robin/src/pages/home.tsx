@@ -7,7 +7,7 @@ export default function Home() {
             {/* Hero Section */}
             <section className="space-y-6 pb-12">
                 <h1 className="text-4xl font-bold tracking-tight">
-                    Hey, I'm <span className="text-primary">Robin Singh</span> 👋
+                    Hey, I'm <span className="text-primary">Robin </span> 👋
                 </h1>
                 <p className="text-xl text-muted-foreground">
                     Full Stack Developer based in India. I build modern web applications

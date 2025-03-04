@@ -304,12 +304,6 @@
 	"files.associations": {
 		"*.css": "tailwindcss"
 	},
-<<<<<<< HEAD
-	"peacock.remoteColor": "#7309d3",
-	"nxConsole.nxWorkspacePath": "",
-	"peacock.color": "#bc81cb"
-=======
 	"peacock.remoteColor": "#cee65e",
 	"nxConsole.nxWorkspacePath": ""
->>>>>>> 9802359 (fixed)
 }

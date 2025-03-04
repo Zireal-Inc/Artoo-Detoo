@@ -1,4 +1,4 @@
-import { Button, ButtonLink } from "@r2d2/ui";
+import { Button} from "@r2d2/ui";
 
 export default function Home() {
   return (

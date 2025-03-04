@@ -10,14 +10,20 @@
   },
   "dependencies": {
     "@r2d2/ui": "workspace:*",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "next": "15.2.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-day-picker": "^9.5.1",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7",
+    "vite": "^6.2.0",
+    "vite-plugin-next": "0.0.1-beta.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.0",
     "@r2d2/app-config": "workspace:*",
-    "@tailwindcss/postcss": "^4.0.9",
     "@types/node": "^22.13.5",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
@@ -25,7 +31,7 @@
     "eslint": "^9.21.0",
     "eslint-config-next": "15.2.0",
     "postcss": "^8.5.3",
-    "tailwindcss": "^4.0.9",
+    "tailwindcss": "^3.4.17",
     "typescript": "^5.7.3"
   },
   "packageManager": "pnpm@10.5.2"
