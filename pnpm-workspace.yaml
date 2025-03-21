@@ -5,3 +5,5 @@ packages:
     - 'packages/**'
     # all the configs in the config
     - 'configs/**'
+    # all the shared libraries
+    - 'libs/**'

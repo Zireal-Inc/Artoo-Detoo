@@ -20,7 +20,7 @@
         "rootDir": "../../", 
         "baseUrl": ".",
         "paths": { 
-            "@ui/*": ["../../packages/ui/src/*"],
+            "@r2d2/ui*": ["../../packages/ui/src/*"],
             "@robin/*": ["../../apps/www/Robin/src/*"]
         }
     },

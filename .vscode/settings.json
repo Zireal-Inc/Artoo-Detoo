@@ -3,20 +3,20 @@
 	"git.autofetch": true,
 	"git.suggestSmartCommit": true,
 	// workbench
-	"workbench.iconTheme": "vscode-icons",
+	"workbench.iconTheme": "material-icon-theme",
 	"workbench.colorTheme": "Dracula Theme",
 	"workbench.colorCustomizations": {
-        "editorGroup.border": "#dbed8a",
-        "panel.border": "#dbed8a",
-        "sash.hoverBorder": "#dbed8a",
-        "sideBar.border": "#dbed8a",
-        "statusBar.background": "#cee65e",
-        "statusBar.border": "#cee65e",
-        "statusBar.debuggingBackground": "#765ee6",
-        "statusBar.debuggingBorder": "#765ee6",
-        "statusBarItem.hoverBackground": "#c1df32",
-        "statusBarItem.remoteBackground": "#cee65e"
-    },
+		"editorGroup.border": "#b300b3",
+		"panel.border": "#b300b3",
+		"sash.hoverBorder": "#b300b3",
+		"sideBar.border": "#b300b3",
+		"statusBar.background": "#800080",
+		"statusBar.border": "#800080",
+		"statusBar.debuggingBackground": "#008000",
+		"statusBar.debuggingBorder": "#008000",
+		"statusBarItem.hoverBackground": "#b300b3",
+		"statusBarItem.remoteBackground": "#800080"
+	},
 	"workbench.tips.enabled": false,
 	"workbench.sideBar.location": "right",
 	"workbench.startupEditor": "none",
@@ -304,6 +304,6 @@
 	"files.associations": {
 		"*.css": "tailwindcss"
 	},
-	"peacock.remoteColor": "#cee65e",
+	"peacock.remoteColor": "purple",
 	"nxConsole.nxWorkspacePath": ""
 }
